@@ -1,0 +1,18 @@
+# Eclipse
+/.metadata/
+.settings/
+.classpath
+.project
+
+# IDEA
+/.idea/
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# macOS
+.DS_Store
