@@ -33,7 +33,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	
+
 	<dependencies>
 		<!-- 添加Spring Cloud Eureka Server启动器 -->
 		<dependency>
@@ -41,7 +41,7 @@
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 			<version>1.4.6.RELEASE</version>
 		</dependency>
-		
+
 		<!-- 添加Spring Boot Web启动器 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -52,6 +52,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        
+        <!-- 添加Spring Boot Test启动器 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
 	</dependencies>
 	

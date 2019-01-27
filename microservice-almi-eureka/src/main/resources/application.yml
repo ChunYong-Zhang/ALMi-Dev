@@ -4,7 +4,7 @@ spring:
     security:
         user:
             name: almi
-            password: almi
+            password: almi         
 
 server:
     port: 8761
