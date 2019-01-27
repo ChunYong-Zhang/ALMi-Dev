@@ -12,7 +12,7 @@
 	<version>1.0.0.RELEASE</version>
 	<name>ALMi-Eureka</name>
 	<description>ALMi-服务治理中心</description>
-	
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -20,4 +20,48 @@
 		<!-- 设置JDK版本 -->
 		<java.version>1.8</java.version>
 	</properties>
+	
+	<dependencyManagement>
+		<dependencies>
+			<!-- 添加Spring Cloud依赖 -->
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>Finchley.SR2</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	
+	<dependencies>
+		<!-- 添加Spring Cloud Eureka Server启动器 -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-eureka-server</artifactId>
+			<version>1.4.6.RELEASE</version>
+		</dependency>
+		
+		<!-- 添加Spring Boot Web启动器 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- 添加Spring Boot Security启动器 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<!-- 添加Spring Boot的Maven插件 -->
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 </project>
