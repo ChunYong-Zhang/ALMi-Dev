@@ -41,13 +41,7 @@
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 			<version>1.4.6.RELEASE</version>
 		</dependency>
-
-		<!-- 添加Spring Boot Web启动器 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
+		
         <!-- 添加Spring Boot Security启动器 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
