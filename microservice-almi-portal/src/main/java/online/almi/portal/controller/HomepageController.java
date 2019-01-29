@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  *
  */
 @Controller
-@RequestMapping("/homepage")
+@RequestMapping(value = "/homepage")
 public class HomepageController {
-	
-	@RequestMapping("/init")
+
+	@RequestMapping(value = "/init")
 	public String init() {
 		return "homepage";
 	}
