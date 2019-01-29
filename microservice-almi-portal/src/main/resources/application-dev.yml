@@ -9,7 +9,7 @@ spring:
     cloud:
         service-registry:
             auto-registration:
-                enabled: true
+                enabled: false
     thymeleaf:
         prefix: classpath:/templates/
         suffix: .html
