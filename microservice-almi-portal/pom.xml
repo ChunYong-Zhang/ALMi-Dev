@@ -42,7 +42,7 @@
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 			<version>1.4.6.RELEASE</version>
 		</dependency>
-		
+
 		<!-- 添加Spring Boot Web启动器 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -53,6 +53,40 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<!-- 添加Spring Boot Thymeleaf启动器 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+		<!-- 添加jQuery依赖 -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>jquery</artifactId>
+			<version>3.1.1-1</version>
+		</dependency>
+
+		<!-- 添加Bootstrap依赖 -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>4.2.1</version>
+		</dependency>
+
+		<!-- 添加ECharts依赖 -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>echarts</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+
+		<!-- 添加RequireJS依赖 -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>requirejs</artifactId>
+			<version>2.3.6</version>
 		</dependency>
 
 		<!-- 添加Spring Boot Test启动器 -->

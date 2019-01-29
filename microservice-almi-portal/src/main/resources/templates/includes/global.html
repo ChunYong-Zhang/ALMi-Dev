@@ -1,0 +1,17 @@
+<!-- 
+引入公共CSS文件
+通过RequireJS引入公共JS文件
+ -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="header">
+<meta charset="UTF-8">
+<meta name="author" content="ALMi" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<script th:src="@{/webjars/requirejs/2.3.6/require.min.js}"></script>
+<script th:src="@{/js/config/requirejsConfig.js}"></script>
+<link rel="stylesheet"
+	th:href="@{/webjars/bootstrap/4.2.1/css/bootstrap.min.css}"
+	media="screen">
+</head>
+</html>
