@@ -1,6 +1,7 @@
 package online.almi.portal.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
+
 /**
  * HomepageController
  * 
