@@ -18,7 +18,7 @@ import online.almi.portal.service.HomepageService;
 public class HomepageController {
 	
 	@Resource
-	HomepageService service;
+	HomepageService homepageService;
 
 	@RequestMapping(value = "/init")
 	public String init() {
