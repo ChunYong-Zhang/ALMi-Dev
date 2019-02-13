@@ -9,5 +9,5 @@
   <artifactId>microservice-almi-zuul</artifactId>
   <version>1.0.0.RELEASE</version>
   <name>ALMi-Zuul</name>
-  <description>ALMi-网关</description>
+  <description>ALMi-路由网关</description>
 </project>
