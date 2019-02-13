@@ -43,6 +43,12 @@
 			<version>1.4.6.RELEASE</version>
 		</dependency>
 
+		<!-- 添加Spring Cloud Ribbon启动器 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-ribbon</artifactId>
+        </dependency>
+
 		<!-- 添加Spring Boot Web启动器 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
