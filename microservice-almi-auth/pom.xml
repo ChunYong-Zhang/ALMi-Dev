@@ -11,7 +11,7 @@
 	<artifactId>microservice-almi-auth</artifactId>
 	<version>1.0.0.RELEASE</version>
 	<name>ALMi-Auth</name>
-	<description>ALMi-身份认证服务</description>
+	<description>ALMi-身份认证中心</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
