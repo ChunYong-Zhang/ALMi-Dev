@@ -8,9 +8,9 @@
 		<version>2.1.2.RELEASE</version>
 	</parent>
 	<groupId>online.almi</groupId>
-	<artifactId>microservice-almi-oauth2</artifactId>
+	<artifactId>microservice-almi-auth</artifactId>
 	<version>1.0.0.RELEASE</version>
-	<name>ALMi-OAuth2</name>
+	<name>ALMi-Auth</name>
 	<description>ALMi-身份认证服务</description>
 	
 	<properties>
