@@ -42,6 +42,13 @@
 			<artifactId>spring-cloud-starter-zuul</artifactId>
 			<version>1.4.6.RELEASE</version>
 		</dependency>
+		
+		<!-- 添加Spring Boot Test启动器 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
 	</dependencies>
 
 	<build>
