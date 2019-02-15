@@ -17,7 +17,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-
+		<start-class>online.almi.portal.PortalApplication</start-class>
 		<!-- 设置JDK版本 -->
 		<java.version>1.8</java.version>
 	</properties>
@@ -44,10 +44,10 @@
 		</dependency>
 
 		<!-- 添加Spring Cloud Ribbon启动器 -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-netflix-ribbon</artifactId>
-        </dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-netflix-ribbon</artifactId>
+		</dependency>
 
 		<!-- 添加Spring Boot Web启动器 -->
 		<dependency>
